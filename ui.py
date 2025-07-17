@@ -4,9 +4,8 @@ import tempfile
 from pathlib import Path
 
 import streamlit as st
-
-from .scanner import scan
-from .reporter import write_report
+from scanner import scan
+from reporter import write_report
 
 st.title("Dead-Code Static Report")
 

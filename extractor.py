@@ -4,7 +4,7 @@ import ast
 from pathlib import Path
 from typing import List
 
-from .models import FunctionInfo
+from models import FunctionInfo
 
 
 class _FunctionGatherer(ast.NodeVisitor):

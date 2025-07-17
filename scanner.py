@@ -2,9 +2,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from .counter import count_references_parallel
-from .extractor import extract_functions
-from .models import FunctionInfo
+from counter import count_references_parallel
+from extractor import extract_functions
+from models import FunctionInfo
 
 
 def scan(base_dir: str | Path) -> tuple[list[FunctionInfo], dict[str, int]]:

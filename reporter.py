@@ -4,8 +4,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Iterable, Mapping
 
-from .models import FunctionInfo
-
+from models import FunctionInfo
 
 def write_report(
     *,

@@ -1,0 +1,10 @@
+[project]
+name = "deadcode"
+version = "0.1.0"
+description = "Static dead-code usage report"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Your Name"}]
+
+[project.scripts]
+deadcode = "deadcode.cli:main"

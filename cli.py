@@ -3,8 +3,8 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from . import scanner
-from .reporter import write_report
+import scanner
+from reporter import write_report
 
 
 def main() -> None:
